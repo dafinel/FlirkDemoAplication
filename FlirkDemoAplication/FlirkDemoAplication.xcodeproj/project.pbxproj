@@ -22,6 +22,10 @@
 		75BD2C8419826A82006D9A32 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75BD2C6319826A81006D9A32 /* UIKit.framework */; };
 		75BD2C8C19826A82006D9A32 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75BD2C8A19826A82006D9A32 /* InfoPlist.strings */; };
 		75BD2C8E19826A82006D9A32 /* FlirkDemoAplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75BD2C8D19826A82006D9A32 /* FlirkDemoAplicationTests.m */; };
+		75BD2C9B19826BC8006D9A32 /* FlickrFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 75BD2C9A19826BC8006D9A32 /* FlickrFetcher.m */; };
+		75BD2C9E19826BF2006D9A32 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75BD2C9D19826BF2006D9A32 /* ImageViewController.m */; };
+		75BD2CA119826CF7006D9A32 /* FlickPhotosTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 75BD2CA019826CF7006D9A32 /* FlickPhotosTVC.m */; };
+		75BD2CA419826DC5006D9A32 /* JustFlickPhotosTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 75BD2CA319826DC5006D9A32 /* JustFlickPhotosTVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,15 @@
 		75BD2C8919826A82006D9A32 /* FlirkDemoAplicationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlirkDemoAplicationTests-Info.plist"; sourceTree = "<group>"; };
 		75BD2C8B19826A82006D9A32 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		75BD2C8D19826A82006D9A32 /* FlirkDemoAplicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlirkDemoAplicationTests.m; sourceTree = "<group>"; };
+		75BD2C9819826BC8006D9A32 /* FlickrAPIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrAPIKey.h; sourceTree = "<group>"; };
+		75BD2C9919826BC8006D9A32 /* FlickrFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrFetcher.h; sourceTree = "<group>"; };
+		75BD2C9A19826BC8006D9A32 /* FlickrFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrFetcher.m; sourceTree = "<group>"; };
+		75BD2C9C19826BF2006D9A32 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		75BD2C9D19826BF2006D9A32 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		75BD2C9F19826CF7006D9A32 /* FlickPhotosTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickPhotosTVC.h; sourceTree = "<group>"; };
+		75BD2CA019826CF7006D9A32 /* FlickPhotosTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickPhotosTVC.m; sourceTree = "<group>"; };
+		75BD2CA219826DC5006D9A32 /* JustFlickPhotosTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JustFlickPhotosTVC.h; sourceTree = "<group>"; };
+		75BD2CA319826DC5006D9A32 /* JustFlickPhotosTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JustFlickPhotosTVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,9 +129,16 @@
 			children = (
 				75BD2C7119826A81006D9A32 /* Main_iPhone.storyboard */,
 				75BD2C7419826A81006D9A32 /* Main_iPad.storyboard */,
+				75BD2C9F19826CF7006D9A32 /* FlickPhotosTVC.h */,
+				75BD2CA019826CF7006D9A32 /* FlickPhotosTVC.m */,
+				75BD2CA219826DC5006D9A32 /* JustFlickPhotosTVC.h */,
+				75BD2CA319826DC5006D9A32 /* JustFlickPhotosTVC.m */,
 				75BD2C7719826A81006D9A32 /* MyAplicationViewController.h */,
 				75BD2C7819826A81006D9A32 /* MyAplicationViewController.m */,
+				75BD2C9C19826BF2006D9A32 /* ImageViewController.h */,
+				75BD2C9D19826BF2006D9A32 /* ImageViewController.m */,
 				75BD2C7A19826A81006D9A32 /* Images.xcassets */,
+				75BD2C9719826BC8006D9A32 /* Flickr Fetcher */,
 				75BD2C6619826A81006D9A32 /* Supporting Files */,
 			);
 			path = FlirkDemoAplication;
@@ -153,6 +173,16 @@
 				75BD2C8A19826A82006D9A32 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75BD2C9719826BC8006D9A32 /* Flickr Fetcher */ = {
+			isa = PBXGroup;
+			children = (
+				75BD2C9819826BC8006D9A32 /* FlickrAPIKey.h */,
+				75BD2C9919826BC8006D9A32 /* FlickrFetcher.h */,
+				75BD2C9A19826BC8006D9A32 /* FlickrFetcher.m */,
+			);
+			path = "Flickr Fetcher";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +233,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "___FULLUSERNAME___";
 				TargetAttributes = {
+					75BD2C5B19826A81006D9A32 = {
+						DevelopmentTeam = KLYWVJKL45;
+					};
 					75BD2C7F19826A82006D9A32 = {
 						TestTargetID = 75BD2C5B19826A81006D9A32;
 					};
@@ -254,8 +287,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75BD2CA419826DC5006D9A32 /* JustFlickPhotosTVC.m in Sources */,
+				75BD2CA119826CF7006D9A32 /* FlickPhotosTVC.m in Sources */,
+				75BD2C9E19826BF2006D9A32 /* ImageViewController.m in Sources */,
 				75BD2C7919826A81006D9A32 /* MyAplicationViewController.m in Sources */,
 				75BD2C7019826A81006D9A32 /* MyAplicationAppDelegate.m in Sources */,
+				75BD2C9B19826BC8006D9A32 /* FlickrFetcher.m in Sources */,
 				75BD2C6C19826A81006D9A32 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -391,6 +428,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FlirkDemoAplication/FlirkDemoAplication-Prefix.pch";
 				INFOPLIST_FILE = "FlirkDemoAplication/FlirkDemoAplication-Info.plist";
@@ -405,6 +443,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FlirkDemoAplication/FlirkDemoAplication-Prefix.pch";
 				INFOPLIST_FILE = "FlirkDemoAplication/FlirkDemoAplication-Info.plist";
