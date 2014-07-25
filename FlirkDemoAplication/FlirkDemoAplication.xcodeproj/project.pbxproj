@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75BD2C6019826A81006D9A32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75BD2C5F19826A81006D9A32 /* Foundation.framework */; };
+		75BD2C6219826A81006D9A32 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75BD2C6119826A81006D9A32 /* CoreGraphics.framework */; };
+		75BD2C6419826A81006D9A32 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75BD2C6319826A81006D9A32 /* UIKit.framework */; };
+		75BD2C6A19826A81006D9A32 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75BD2C6819826A81006D9A32 /* InfoPlist.strings */; };
+		75BD2C6C19826A81006D9A32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75BD2C6B19826A81006D9A32 /* main.m */; };
+		75BD2C7019826A81006D9A32 /* MyAplicationAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75BD2C6F19826A81006D9A32 /* MyAplicationAppDelegate.m */; };
+		75BD2C7319826A81006D9A32 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75BD2C7119826A81006D9A32 /* Main_iPhone.storyboard */; };
+		75BD2C7619826A81006D9A32 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75BD2C7419826A81006D9A32 /* Main_iPad.storyboard */; };
+		75BD2C7919826A81006D9A32 /* MyAplicationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75BD2C7819826A81006D9A32 /* MyAplicationViewController.m */; };
+		75BD2C7B19826A81006D9A32 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75BD2C7A19826A81006D9A32 /* Images.xcassets */; };
+		75BD2C8219826A82006D9A32 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75BD2C8119826A82006D9A32 /* XCTest.framework */; };
+		75BD2C8319826A82006D9A32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75BD2C5F19826A81006D9A32 /* Foundation.framework */; };
+		75BD2C8419826A82006D9A32 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75BD2C6319826A81006D9A32 /* UIKit.framework */; };
+		75BD2C8C19826A82006D9A32 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75BD2C8A19826A82006D9A32 /* InfoPlist.strings */; };
+		75BD2C8E19826A82006D9A32 /* FlirkDemoAplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75BD2C8D19826A82006D9A32 /* FlirkDemoAplicationTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75BD2C8519826A82006D9A32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75BD2C5419826A81006D9A32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75BD2C5B19826A81006D9A32;
+			remoteInfo = FlirkDemoAplication;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75BD2C5C19826A81006D9A32 /* FlirkDemoAplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlirkDemoAplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75BD2C5F19826A81006D9A32 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		75BD2C6119826A81006D9A32 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		75BD2C6319826A81006D9A32 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		75BD2C6719826A81006D9A32 /* FlirkDemoAplication-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlirkDemoAplication-Info.plist"; sourceTree = "<group>"; };
+		75BD2C6919826A81006D9A32 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		75BD2C6B19826A81006D9A32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		75BD2C6D19826A81006D9A32 /* FlirkDemoAplication-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlirkDemoAplication-Prefix.pch"; sourceTree = "<group>"; };
+		75BD2C6E19826A81006D9A32 /* MyAplicationAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyAplicationAppDelegate.h; sourceTree = "<group>"; };
+		75BD2C6F19826A81006D9A32 /* MyAplicationAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAplicationAppDelegate.m; sourceTree = "<group>"; };
+		75BD2C7219826A81006D9A32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		75BD2C7519826A81006D9A32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		75BD2C7719826A81006D9A32 /* MyAplicationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyAplicationViewController.h; sourceTree = "<group>"; };
+		75BD2C7819826A81006D9A32 /* MyAplicationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAplicationViewController.m; sourceTree = "<group>"; };
+		75BD2C7A19826A81006D9A32 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		75BD2C8019826A82006D9A32 /* FlirkDemoAplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlirkDemoAplicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75BD2C8119826A82006D9A32 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		75BD2C8919826A82006D9A32 /* FlirkDemoAplicationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlirkDemoAplicationTests-Info.plist"; sourceTree = "<group>"; };
+		75BD2C8B19826A82006D9A32 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		75BD2C8D19826A82006D9A32 /* FlirkDemoAplicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlirkDemoAplicationTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75BD2C5919826A81006D9A32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75BD2C6219826A81006D9A32 /* CoreGraphics.framework in Frameworks */,
+				75BD2C6419826A81006D9A32 /* UIKit.framework in Frameworks */,
+				75BD2C6019826A81006D9A32 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75BD2C7D19826A82006D9A32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75BD2C8219826A82006D9A32 /* XCTest.framework in Frameworks */,
+				75BD2C8419826A82006D9A32 /* UIKit.framework in Frameworks */,
+				75BD2C8319826A82006D9A32 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75BD2C5319826A81006D9A32 = {
+			isa = PBXGroup;
+			children = (
+				75BD2C6519826A81006D9A32 /* FlirkDemoAplication */,
+				75BD2C8719826A82006D9A32 /* FlirkDemoAplicationTests */,
+				75BD2C5E19826A81006D9A32 /* Frameworks */,
+				75BD2C5D19826A81006D9A32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75BD2C5D19826A81006D9A32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75BD2C5C19826A81006D9A32 /* FlirkDemoAplication.app */,
+				75BD2C8019826A82006D9A32 /* FlirkDemoAplicationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75BD2C5E19826A81006D9A32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75BD2C5F19826A81006D9A32 /* Foundation.framework */,
+				75BD2C6119826A81006D9A32 /* CoreGraphics.framework */,
+				75BD2C6319826A81006D9A32 /* UIKit.framework */,
+				75BD2C8119826A82006D9A32 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75BD2C6519826A81006D9A32 /* FlirkDemoAplication */ = {
+			isa = PBXGroup;
+			children = (
+				75BD2C7119826A81006D9A32 /* Main_iPhone.storyboard */,
+				75BD2C7419826A81006D9A32 /* Main_iPad.storyboard */,
+				75BD2C7719826A81006D9A32 /* MyAplicationViewController.h */,
+				75BD2C7819826A81006D9A32 /* MyAplicationViewController.m */,
+				75BD2C7A19826A81006D9A32 /* Images.xcassets */,
+				75BD2C6619826A81006D9A32 /* Supporting Files */,
+			);
+			path = FlirkDemoAplication;
+			sourceTree = "<group>";
+		};
+		75BD2C6619826A81006D9A32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75BD2C6E19826A81006D9A32 /* MyAplicationAppDelegate.h */,
+				75BD2C6F19826A81006D9A32 /* MyAplicationAppDelegate.m */,
+				75BD2C6719826A81006D9A32 /* FlirkDemoAplication-Info.plist */,
+				75BD2C6819826A81006D9A32 /* InfoPlist.strings */,
+				75BD2C6B19826A81006D9A32 /* main.m */,
+				75BD2C6D19826A81006D9A32 /* FlirkDemoAplication-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75BD2C8719826A82006D9A32 /* FlirkDemoAplicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				75BD2C8D19826A82006D9A32 /* FlirkDemoAplicationTests.m */,
+				75BD2C8819826A82006D9A32 /* Supporting Files */,
+			);
+			path = FlirkDemoAplicationTests;
+			sourceTree = "<group>";
+		};
+		75BD2C8819826A82006D9A32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75BD2C8919826A82006D9A32 /* FlirkDemoAplicationTests-Info.plist */,
+				75BD2C8A19826A82006D9A32 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75BD2C5B19826A81006D9A32 /* FlirkDemoAplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75BD2C9119826A82006D9A32 /* Build configuration list for PBXNativeTarget "FlirkDemoAplication" */;
+			buildPhases = (
+				75BD2C5819826A81006D9A32 /* Sources */,
+				75BD2C5919826A81006D9A32 /* Frameworks */,
+				75BD2C5A19826A81006D9A32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlirkDemoAplication;
+			productName = FlirkDemoAplication;
+			productReference = 75BD2C5C19826A81006D9A32 /* FlirkDemoAplication.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75BD2C7F19826A82006D9A32 /* FlirkDemoAplicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75BD2C9419826A82006D9A32 /* Build configuration list for PBXNativeTarget "FlirkDemoAplicationTests" */;
+			buildPhases = (
+				75BD2C7C19826A82006D9A32 /* Sources */,
+				75BD2C7D19826A82006D9A32 /* Frameworks */,
+				75BD2C7E19826A82006D9A32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75BD2C8619826A82006D9A32 /* PBXTargetDependency */,
+			);
+			name = FlirkDemoAplicationTests;
+			productName = FlirkDemoAplicationTests;
+			productReference = 75BD2C8019826A82006D9A32 /* FlirkDemoAplicationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75BD2C5419826A81006D9A32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MyAplication;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					75BD2C7F19826A82006D9A32 = {
+						TestTargetID = 75BD2C5B19826A81006D9A32;
+					};
+				};
+			};
+			buildConfigurationList = 75BD2C5719826A81006D9A32 /* Build configuration list for PBXProject "FlirkDemoAplication" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75BD2C5319826A81006D9A32;
+			productRefGroup = 75BD2C5D19826A81006D9A32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75BD2C5B19826A81006D9A32 /* FlirkDemoAplication */,
+				75BD2C7F19826A82006D9A32 /* FlirkDemoAplicationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75BD2C5A19826A81006D9A32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75BD2C7619826A81006D9A32 /* Main_iPad.storyboard in Resources */,
+				75BD2C7B19826A81006D9A32 /* Images.xcassets in Resources */,
+				75BD2C7319826A81006D9A32 /* Main_iPhone.storyboard in Resources */,
+				75BD2C6A19826A81006D9A32 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75BD2C7E19826A82006D9A32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75BD2C8C19826A82006D9A32 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75BD2C5819826A81006D9A32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75BD2C7919826A81006D9A32 /* MyAplicationViewController.m in Sources */,
+				75BD2C7019826A81006D9A32 /* MyAplicationAppDelegate.m in Sources */,
+				75BD2C6C19826A81006D9A32 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75BD2C7C19826A82006D9A32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75BD2C8E19826A82006D9A32 /* FlirkDemoAplicationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75BD2C8619826A82006D9A32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75BD2C5B19826A81006D9A32 /* FlirkDemoAplication */;
+			targetProxy = 75BD2C8519826A82006D9A32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75BD2C6819826A81006D9A32 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75BD2C6919826A81006D9A32 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		75BD2C7119826A81006D9A32 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75BD2C7219826A81006D9A32 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		75BD2C7419826A81006D9A32 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75BD2C7519826A81006D9A32 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		75BD2C8A19826A82006D9A32 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75BD2C8B19826A82006D9A32 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75BD2C8F19826A82006D9A32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75BD2C9019826A82006D9A32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75BD2C9219826A82006D9A32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlirkDemoAplication/FlirkDemoAplication-Prefix.pch";
+				INFOPLIST_FILE = "FlirkDemoAplication/FlirkDemoAplication-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		75BD2C9319826A82006D9A32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlirkDemoAplication/FlirkDemoAplication-Prefix.pch";
+				INFOPLIST_FILE = "FlirkDemoAplication/FlirkDemoAplication-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		75BD2C9519826A82006D9A32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlirkDemoAplication.app/FlirkDemoAplication";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlirkDemoAplication/FlirkDemoAplication-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FlirkDemoAplicationTests/FlirkDemoAplicationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		75BD2C9619826A82006D9A32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlirkDemoAplication.app/FlirkDemoAplication";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlirkDemoAplication/FlirkDemoAplication-Prefix.pch";
+				INFOPLIST_FILE = "FlirkDemoAplicationTests/FlirkDemoAplicationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75BD2C5719826A81006D9A32 /* Build configuration list for PBXProject "FlirkDemoAplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75BD2C8F19826A82006D9A32 /* Debug */,
+				75BD2C9019826A82006D9A32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75BD2C9119826A82006D9A32 /* Build configuration list for PBXNativeTarget "FlirkDemoAplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75BD2C9219826A82006D9A32 /* Debug */,
+				75BD2C9319826A82006D9A32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		75BD2C9419826A82006D9A32 /* Build configuration list for PBXNativeTarget "FlirkDemoAplicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75BD2C9519826A82006D9A32 /* Debug */,
+				75BD2C9619826A82006D9A32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75BD2C5419826A81006D9A32 /* Project object */;
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>34E256A0-3698-47D0-B0E4-C62CB7B6FDF3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FlirkDemoAplication</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DDED7B14-A01D-4E46-AF83-C14971C805DF</key>
+		<string>https://github.com/dafinel/FlirkDemoAplication.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FlirkDemoAplication/FlirkDemoAplication.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DDED7B14-A01D-4E46-AF83-C14971C805DF</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/dafinel/FlirkDemoAplication.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DDED7B14-A01D-4E46-AF83-C14971C805DF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DDED7B14-A01D-4E46-AF83-C14971C805DF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FlirkDemoAplication</string>
+		</dict>
+	</array>
+</dict>
+</plist>
